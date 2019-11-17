@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Coding for begineers
+        </title>
+    </head>
+    <body>
+        {% include 'navbar.html' %}
+
+        <!--block is a django keyword, and content is a user-defined variable. We can have multiple of such blocks-->
+        {% block content %} 
+            replace me
+        {% endblock %}
+    </body>
+</html>
